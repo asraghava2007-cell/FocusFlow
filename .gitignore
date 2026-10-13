@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Local environment and binaries
+node-bin/
+git-bin/
+node-temp/
+*.zip
+*.tar.gz
+
+# Production build artifacts
+dist/
+build/
+
+# Environment files and secrets (NEVER COMMIT SECRETS)
+.env
+.env.*
+*.env
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+id_rsa*
+secrets.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
